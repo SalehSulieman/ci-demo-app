@@ -24,6 +24,7 @@ The project uses a lightweight Node.js server as the build target, validating th
 ---
 
 ## Repository Structure
+
 ```bash
 ci-demo-app/
 ├── src/
