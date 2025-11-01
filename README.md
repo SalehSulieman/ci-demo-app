@@ -24,16 +24,16 @@ The project uses a lightweight Node.js server as the build target, validating th
 ---
 
 ## Repository Structure
+```bash
 ci-demo-app/
 ├── src/
-│ └── server.js # Minimal HTTP server
+│   └── server.js           # Minimal HTTP server
 ├── .github/
-│ └── workflows/
-│ └── ci.yml # CI pipeline definition
-├── package.json # Node.js metadata and scripts
-└── README.md # Documentation
-
-
+│   └── workflows/
+│       └── ci.yml          # CI pipeline definition
+├── package.json            # Node.js metadata and scripts
+└── README.md               # Documentation
+```
 ---
 
 ## Local Usage
@@ -45,7 +45,9 @@ npm start
 ```
 Then visit http://127.0.0.1:3000 to verify output.
 
-##Technologies Used
+---
+
+## Technologies Used
 
 Node.js 18
 
@@ -53,10 +55,14 @@ GitHub Actions (YAML workflows)
 
 Ubuntu-based CI runners
 
-##Why This Matters
+---
+
+## Why This Matters
 
 This lab establishes your foundation in Continuous Integration, ensuring that codebases remain buildable and testable across all commits — a core DevOps principle preceding containerization and automated deployment.
 
-##Author
+---
+
+## Author
 
 Saleh Sulieman — Computer Engineering Student @ Ostim Teknik University
